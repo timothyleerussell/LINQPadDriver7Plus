@@ -50,9 +50,10 @@ namespace SD.LLBLGen.Pro.LINQPadDriver7Plus
 	internal class Constants
 	{
 		internal static readonly int MajorVersion = 5;
-		internal static readonly int MinorVersion = 12;
+		internal static readonly int MinorVersion = 11;
+		internal static readonly int HotfixVersion = 4;
 		internal static readonly string Author = "Solutions Design bv";
-		internal static readonly string Name = "LLBLGen Pro v" + string.Format("{0}.{1}", MajorVersion, MinorVersion) + " LINQPad driver";
+		internal static readonly string Name = "LLBLGen Pro v" + string.Format("{0}.{1}.{2}", MajorVersion, MinorVersion, HotfixVersion) + " LINQPad driver";
 	}
 
 
